@@ -15,7 +15,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <a href="https://sass-lang.com/" target="_blank">
       <img src="${sassLogo}" class="logo sass" alt="Sass logo" />
     </a>
-    <h1>Vite + TypeScript + Sass</h1>
+    <h1>Vite CI/CD</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>

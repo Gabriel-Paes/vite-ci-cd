@@ -51,7 +51,7 @@ describe("Main DOM Initialization", () => {
 
     const title = document.querySelector("h1");
     expect(title).not.toBeNull(); // O título deve existir
-    expect(title!.textContent).toBe("Vite CI/CD"); // Deve ter o texto correto
+    expect(title!.textContent).toBe("Vite CI/CD + CapRover"); // Deve ter o texto correto
   });
 
   it("should display a message for documentation links", async () => {
